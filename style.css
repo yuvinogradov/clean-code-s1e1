@@ -152,7 +152,7 @@ h3,
 
 /* Completed */
 #completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
