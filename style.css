@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.header img {
+.header__img {
   width: 100%;
 }
 
@@ -155,15 +155,15 @@
 }
 
 /* Edit Task */
-.menu__item input[type="text"] {
+.menu__item .text-input {
   display: none;
 }
 
-.menu__item.edit-mode input[type="text"] {
+.menu__item.edit-mode .text-input {
   display: inline-block;
   width: 224px;
 }
 
-.menu__item.edit-mode label {
+.menu__item.edit-mode .task-list-label {
   display: none;
 }
