@@ -18,16 +18,16 @@ var completedTasksHolder = document.getElementById("completed-tasks");//complete
 var createNewTaskElement = function (taskString) {
 
   var listItem = document.createElement("li")
-  listItem.classList.add("menu__item");
+  listItem.classList.add("list__item");
   //input (checkbox)
   var checkBox = document.createElement("input");//checkbx
-  checkBox.classList.add("menu__input-cb")
+  checkBox.classList.add("list__input-cb")
   //label
   var label = document.createElement("label");//label
-  label.className = "menu__label";
+  label.className = "list__label";
   //input (text)
   var editInput = document.createElement("input");//text
-  editInput.classList.add("text-input", "menu__input-text")
+  editInput.classList.add("text-input", "list__input-text")
   //button.edit
   var editButton = document.createElement("button");//edit button
 
